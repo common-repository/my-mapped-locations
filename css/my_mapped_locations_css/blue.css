@@ -1,0 +1,36 @@
+.google-map-container {
+	width: 960px;
+}
+#content .google-map span {
+	margin: 0 0 10px 10px;
+	padding: 0;
+}
+#content .google-map span.title, #content .google-map span span {
+	margin-left: 0;
+}
+.google-map, .location-container {
+	float: left;
+	display: block;
+}
+.google-map img, .google-map .wrapper {
+	float: left;
+}
+.google-map a, .google-map .title, .google-map .address, .google-map .phone {
+	font-size: 12px;
+	color: #000;
+	display: block;
+}
+.google-map a, .google-map .title {
+	color: #21759b;
+}
+.google-map .wrapper {
+	width: 100px;
+}
+.location-container {
+	width: 300px;
+	padding-left: 30px;
+}
+ul.locations li {
+	cursor: pointer;
+	cursor: hand;
+}

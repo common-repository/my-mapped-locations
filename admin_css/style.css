@@ -1,0 +1,118 @@
+.postbox a.delete, .postbox td.delete a.delete {
+	background: url(../images/trash.png) no-repeat;
+	display: block;
+	text-indent: -1000em;
+	width: 17px;
+	height: 17px;
+}
+.postbox a.edit, .postbox td.edit a {
+	background: url(../images/edit.png) no-repeat;
+	display: block;
+	text-indent: -1000em;
+	width: 17px;
+	height: 17px;
+}
+
+form label, table label {
+	float: left;
+	width: 130px;
+	margin-right: 10px;
+}
+
+form p {
+	clear: both;
+}
+
+form span.error {
+	color: #ff0000;
+	display: block;
+	margin-left: 142px;
+}
+
+form #css_content {
+	width: 900px;
+	height: 700px;
+}
+
+form input.text, form textarea {
+	width: 210px;
+}
+
+form textarea {
+	height: 200px;
+}
+
+form ul.options {
+	padding-bottom: 20px;
+}
+form ul.options label {
+	width: 30px;
+}
+
+form ul.options input {
+	float: left;
+	margin-right: 5px;
+	margin-left: 2px;
+}
+
+.pagination, .pagination li {
+	display: inline;
+}
+
+table {
+	margin: 20px 0;
+}
+
+table tr.odd {
+	background: #cac9c9;
+}
+
+table td.id, table th.id, table td.lid, table th.lid {
+	display: none;
+}
+
+table th {
+	text-align: left;
+}
+table td {
+	width: 140px;
+}
+table td.edit, table td.delete {
+	text-align: center;
+}
+
+table td.gmap-title {
+	background: url("../images/resortable.jpg") no-repeat 3px center;
+	padding-left: 20px;
+}
+
+table iframe { 
+  min-height: 400px;
+}
+
+#wp-content-wrap {
+	margin-bottom: 30px;
+}
+
+#control_gmap_page_post_container, #upload_gmap_image_container {
+	display: none;
+}
+#colorbox #control_gmap_page_post_container, #colorbox #upload_gmap_image_container {
+	display: block;
+	width: 680px;
+}
+#gmap_image_uploader_container {
+	width: 367px;
+}
+table tr input, #gmap_webpage_control_container p, #gmap_images li, #gmap_image_uploader_container p, #gmap_image_uploader_container .gmap-image-uploader {
+	float: left;
+}
+#gmap_webpage_control_container p, #gmap_images li, #gmap_image_uploader_container p {
+	margin: 0 10px 0 0;
+} 
+#colorbox .postbox table.form-table {
+	width: 420px;
+}
+#colorbox table td {
+	width: 470px;
+}

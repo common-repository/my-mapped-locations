@@ -1,0 +1,36 @@
+.clone {display: none;}
+.wrapper label {
+	float: left;
+	width: 100px;
+}
+.wrapper .location {
+	background: #aaa;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.wrapper .location label {
+	width: 95px;
+}
+.mceActionPanel div, .mceActionPanel div input {
+	display: inline;
+}
+#last_my_location {
+	padding-top: 15px;
+}
+.help {
+	color: #21759b;
+	font-weight: bold;
+	font-size: 16px;
+}
+.help:hover {
+	cursor: pointer;
+	cursor: hand;
+}
+span.error {
+	color: #ff0000;
+	display: block;
+	margin-left: 100px;
+}
+.wrapper .location span.error {
+	margin-left: 95px;
+}
